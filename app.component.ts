@@ -12,7 +12,6 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 					<input type="password" name="pass" placeholder="Password" [(ngModel)]="password">
 					<input type="submit" name="login" class="login loginmodal-submit" value="Login" (click)="login()">
 				  </form>
-					
 				  <div class="login-help">
 				  </div>
 				</div>
